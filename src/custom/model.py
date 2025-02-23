@@ -31,7 +31,6 @@ class FishAudioTTSModel():
 
             leftover = chunk[mul2_len:]
             clipped_chunk = chunk[:mul2_len]
-            logging.debug("Sent chunk of size: " + str(len(clipped_chunk)))
             yield clipped_chunk
         
         logging.debug("Finished generating response.")
