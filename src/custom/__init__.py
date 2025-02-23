@@ -49,7 +49,7 @@ async def start_ttsg(request_iterator):
     if len(sentence) > 0:
         logging.debug(f"Processing sentence: {sentence}")
         for audio_chunk in ttsg_model(sentence):
-            yield audio_chunk, 24000, 2, 1
+            yield audio_chunk, 44100, 2, 1
 
 # For speech-to-text models
 async def start_stt(request_iterator) -> str:
