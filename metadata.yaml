@@ -1,0 +1,7 @@
+id: "ttsg-fishaudio-api"
+name: "FishAudio API TTS Generation by w-AI-fu_DEV"
+type: "ttsg" # (one of stt, t2t, ttsg, or ttsc)
+is_windows_compatible: true
+is_unix_compatible: true
+windows_run_script: "start.bat"
+unix_run_script: "start.sh"

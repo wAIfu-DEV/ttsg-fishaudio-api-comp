@@ -1,0 +1,4 @@
+jaison-grpc>=1.1.4
+pyyaml==6.0.2
+python-dotenv==1.0.1
+fish-audio-sdk==2025.2.11
