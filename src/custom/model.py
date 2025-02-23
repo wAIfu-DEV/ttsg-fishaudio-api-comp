@@ -17,7 +17,7 @@ class FishAudioTTSModel():
             format="pcm",
             normalize=False,
             latency="balanced",
-            chunk_length=int(4096/2),
+            chunk_length=300,
             sample_rate=44100
         )):
             yield chunk
